@@ -217,11 +217,13 @@ footer {
   font-size: 35px;
   font-weight: bold;
   color: #181818;
+  margin-bottom: 20px;
 }
 .ter p {
   font-size: 16px;
   font-weight: 400;
   color: #757575;
+  margin-bottom: 30px;
 }
 footer input[type="text"] {
   width: 461px;
@@ -255,4 +257,8 @@ footer textarea {
   border: none;
   display: block;
   margin: 24px 0 24px 0;
+}
+.icon {
+  display: flex;
+  gap: 24px;
 }
