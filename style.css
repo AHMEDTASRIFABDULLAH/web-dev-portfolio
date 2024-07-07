@@ -262,3 +262,6 @@ footer textarea {
   display: flex;
   gap: 24px;
 }
+.ri-phone-line {
+  color: #fd6e0a;
+}
