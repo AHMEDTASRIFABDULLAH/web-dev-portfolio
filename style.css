@@ -1,0 +1,258 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+.btn {
+  background-color: #fd6e0a;
+  font-size: 20px;
+  font-weight: bold;
+  width: 150px;
+  height: 64px;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+}
+.btn3 {
+  background-color: #fd6e0a;
+  font-size: 20px;
+  font-weight: bold;
+  width: 200px;
+  height: 64px;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+}
+header {
+  background-image: url(images/developer.png), url(images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+  margin-left: 23px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 51px 230px 0 226px;
+}
+.nav-title {
+  font-size: 45px;
+  font-weight: 800;
+}
+nav h3 span {
+  color: #fd6e0a;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+}
+nav ul li {
+  list-style: none;
+  margin-right: 51px;
+}
+nav ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #474747;
+}
+.right h2 {
+  font-size: 45px;
+  font-weight: 600;
+  color: #474747;
+  margin-bottom: 5px;
+}
+.right h1 {
+  font-size: 85px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.right p {
+  color: #757575;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+.btn2 {
+  width: 160px;
+  height: 64px;
+  color: #fd6e0a;
+  border: 1px solid #fd6e0a;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #fff8f3;
+  margin-left: 30px;
+}
+.banner {
+  display: flex;
+  justify-content: space-between;
+  margin: 47px 38px 130px 230px;
+}
+.banner img {
+  margin-top: 47px;
+}
+.right {
+  width: 585px;
+  height: 356px;
+  margin-top: 185px;
+}
+.About h1 {
+  font-size: 35px;
+  font-weight: bold;
+  color: #181818;
+  margin-bottom: 30px;
+}
+.About p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #757575;
+}
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.About {
+  background-color: #fff8f3;
+  border-radius: 10px;
+  padding: 131px 157px 131px 156px;
+  text-align: center;
+}
+.items {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.item .adres {
+  font-size: 20px;
+  font-weight: 700;
+  color: #474747;
+}
+.skills h1 {
+  font-size: 35px;
+  font-weight: bold;
+  color: #181818;
+  margin-bottom: 30px;
+  margin-top: 130px;
+  text-align: center;
+}
+.skills p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #757575;
+  text-align: center;
+}
+.tech {
+  display: flex;
+  gap: 24px;
+  margin-top: 50px;
+}
+.mongo {
+  font-size: 16px;
+  font-weight: 400;
+  color: #757575;
+  padding: 30px;
+}
+.sk img {
+  padding: 30px;
+}
+.sk h4 {
+  padding: 10px 30px;
+}
+.sk {
+  border-radius: 5px;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  background: rgb(255, 255, 255);
+}
+.summary .sum {
+  text-align: center;
+  margin-top: 130px;
+  margin-bottom: 113px;
+  font-size: 35px;
+  font-weight: 700;
+  color: #181818;
+}
+.recolumn h3 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #757575;
+}
+.recolumn p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #757575;
+}
+.sub {
+  font-size: 25px;
+  font-weight: bold;
+  color: #181818;
+  margin-bottom: 10px;
+  margin-top: 15px;
+}
+.recolumn {
+  display: flex;
+  gap: 71px;
+}
+.si {
+  font-size: 25px;
+  font-weight: bold;
+  color: #181818;
+  margin-bottom: 30px;
+}
+.text {
+  text-align: center;
+  margin-top: 50px;
+}
+footer {
+  background-color: #fff8f3;
+  margin-top: 113px;
+  padding: 130px 230px;
+  display: flex;
+  gap: 117px;
+}
+.ter h1 {
+  font-size: 35px;
+  font-weight: bold;
+  color: #181818;
+}
+.ter p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #757575;
+}
+footer input[type="text"] {
+  width: 461px;
+  height: 64px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  color: #757575;
+  padding: 16px 30px 16px 30px;
+  border: none;
+  display: block;
+  margin: 24px 0 24px 0;
+}
+footer input[type="email"] {
+  width: 461px;
+  height: 64px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  color: #757575;
+  padding: 16px 30px 16px 30px;
+  border: none;
+  display: block;
+  margin: 24px 0 24px 0;
+}
+footer textarea {
+  width: 461px;
+  height: 180px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  color: #757575;
+  padding: 16px 30px 16px 30px;
+  border: none;
+  display: block;
+  margin: 24px 0 24px 0;
+}
